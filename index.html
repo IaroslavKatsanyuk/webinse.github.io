@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webinse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script/script.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <section class="tab-pane" id="tabs4">
+        <div class="block">
+            <div class="interface-description">
+                <div id="information">
+                    <div id="input">
+                        <label class="text">First Name:</label><input id="fname" class="data" type="text"
+                            placeholder="First Name" />
+                        <br /><br />
+                        <label class="text">Second Name:</label><input id="lname" class="data" type="text"
+                            placeholder="Second Name" />
+                        <br /><br />
+                        <label class="text">E-mail</label><input id="Email" class="data" type="text"
+                            placeholder="E-mail" />
+                        <br>
+                    </div>
+                    <div id="button-list">
+                        <input id="save" onclick="addRow()" class="list-stud" type="button" value="Save"
+                            onchange="ajaxget()">
+                    </div>
+                    <div id="error"></div>
+                </div>
+                <table id="student-lister">
+                    <tr id="student-list">
+                        <td id="index1">Id</td>
+                        <td id="index2">First Name</td>
+                        <td id="index3">Second Name</td>
+                        <td id="index4">E-mail</td>
+                        <td id="index5" onchange="ajaxget()">Edit</td>
+                        <td id="index6" onchange="ajaxget()">Delete</td>
+                    </tr>
+                </table>
+                <div id="div"></div>
+                <div id="post"></div>
+                <div id="post2"></div>
+                <div id="post3"></div>
+                <div id="post4"></div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>

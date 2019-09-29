@@ -1,0 +1,132 @@
+#index1 {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#index2 {
+    width: 100px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#index3 {
+    width: 100px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#index4 {
+    width: 50px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#index5 {
+    width: 70px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#index6 {
+    width: 100px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#student-lister {
+    width: 820px;
+    height: 40px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+}
+
+#information {
+    width: 820px;
+    height: 200px;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+.data {
+    width: 160px;
+    height: 25px;
+    margin-left: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+#input {
+    top: 10%;
+    position: absolute;
+    clear: both;
+    text-align: right;
+}
+
+.text {
+    float: left;
+    margin-left: 10px;
+
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+#button-list {
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+}
+
+.list-stud {
+    width: 70px;
+    position: relative;
+    right: 10px;
+    border-radius: 25%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#student-lister td {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, .4);
+    border: 5px solid #000000;
+    color: #fff;
+}
+
+#error {
+    color: red;
+    position: absolute;
+    top: 175px;
+    left: 160px;
+}
+
+#div {
+    visibility: hidden;
+}
+
+#post,
+#post2,
+#post3,
+#post4 {
+    display: none;
+}
